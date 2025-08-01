@@ -1,0 +1,63 @@
+body{
+  transition: 1s;
+  opacity: 100%;
+  background-color: whitesmoke;
+  height: 1000px;
+}
+#fundo{
+  background-color: white;
+  padding: 15px;
+  border-radiu: 15px;
+  width: 900px;
+  margin: 0 auto;
+}
+.imagem{
+  width: 600px;
+  border-radius: 15px;
+  padding: 15px;
+}
+.imagens{
+  background-color: ghostwhite;
+  width: 650px;
+  height: 77%;
+  max-height: 770px;
+  text-align: center;
+  margin: 0 auto;
+  border-radius: 15px;
+  padding: 15px;
+}
+.titulo{
+  position: relative;
+  bottom: 75px;
+  font-size: 60px;
+  height: 10px;
+  color: black;
+}
+.preco{
+  font-size: 70px;
+  height: 10px;
+  opacity: 50%;
+}
+.botao{
+  color: lightblue;
+  background-color: blue;
+  border-radius: 15px;
+  height: 16vw;
+  width: 35vw;
+  font-size: 5vw;
+}
+.descrito{
+  color: gray;
+  font-size: 4vw;
+}
+#voltar{
+  opacity: 70%;
+  text-align: center;
+  height: 8vw;
+  width: 15vw;
+  background-color: lightgray;
+  color: black;
+  border-radius: 50px;
+  font-size: 4vw;
+  font-family: 'Times New Roman', Times, serif;
+}

@@ -1,0 +1,68 @@
+/* Reset básico */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #bbbbbb;
+  padding: 0;
+  margin: 0;
+}
+/* Agora com largura fluida e responsiva */
+#fundo {
+  background-color: #dddddd;
+  padding: 15px;
+  border-radius: 15px;
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* Centraliza o container do título */
+#tituloD {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  width: 100%;
+}
+
+/* Aplica centralização e tamanho adaptável ao título */
+.titulo {
+  text-align: center;
+  font-size: 8vw; /* adapta ao tamanho da tela */
+  margin: 0;
+  
+}
+
+/* Outros elementos ajustados */
+.produto {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  position: relative;
+  bottom: -25px;
+}
+
+.imagens {
+  background-color: white;
+  width: 100%;
+  max-width: 650px;
+  text-align: center;
+  margin: 0 auto 30px auto;
+  padding: 15px;
+  border-radius: 15px;
+}
+
+.descricao {
+  color: #555555;
+  font-size: 6vw; /* para manter legível em celular */
+}
+
+.preco {
+  font-size: 6vw;
+  opacity: 50%;
+}
+a {
+  text-decoration: none; 
+}
